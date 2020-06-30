@@ -1,0 +1,11 @@
+[cmdline]
+0=mkdir
+1=mkdir temp
+2=
+
+[Dir Hist New Right Panel]
+0=/home/box
+
+[Dir Hist New Left Panel]
+0=/home/box
+1=/home
