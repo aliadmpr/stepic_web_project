@@ -9,6 +9,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
+:q!
 ::
 
 # Search String History (newest to oldest):
@@ -20,25 +21,154 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	    return ['%s=%s<br>'.encode(utf8) % (k, qs[k][0]) for k in qs]
+"2	LINE	0
+	    qs = parse_qs (environ ['QUERY_STRING'])
+"3	LINE	0
+	    start_response ('200 OK', [('Content-Type', 'text/plain')])
+"4	LINE	0
+	
+"5	LINE	0
+	from cgi import parse_qs
+"6	LINE	0
+	from cgi import parse_qs
+"7	LINE	0
+	
+"8	LINE	0
+	def app(environ, start_response):
+"9	LINE	0
+	    start_response ('200 OK', [('Content-Type', 'text/plain')])
 
 # File marks:
-'0  1  0  ~/web/init.sh
-'1  2  0  ~/web/init.sh
-'2  12  0  ~/web/etc/nginx.conf
+'0  5  38  ~/web/hello.py
+'1  1  0  ~/web/hello.py
+'2  9  35  ~/web/etc/nginx.conf
+'3  1  0  ~/web/hello.py
+'4  1  0  ~/web/init.sh
+'5  2  0  ~/web/init.sh
+'6  12  0  ~/web/etc/nginx.conf
 
 # Jumplist (newest first):
+-'  5  38  ~/web/hello.py
+-'  1  0  ~/web/hello.py
+-'  9  35  ~/web/etc/nginx.conf
+-'  1  0  ~/web/etc/nginx.conf
 -'  1  0  ~/web/init.sh
 -'  2  0  ~/web/init.sh
 -'  12  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  9  35  ~/web/etc/nginx.conf
 -'  1  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
 -'  12  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  6  36  ~/web/hello.py
+-'  9  35  ~/web/etc/nginx.conf
 -'  1  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
 -'  12  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  9  35  ~/web/etc/nginx.conf
 -'  1  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
 -'  12  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  9  35  ~/web/etc/nginx.conf
 -'  1  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  12  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  9  35  ~/web/etc/nginx.conf
+-'  1  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  12  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  9  35  ~/web/etc/nginx.conf
+-'  1  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  12  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  9  35  ~/web/etc/nginx.conf
+-'  1  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  12  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  1  0  ~/web/init.sh
+-'  2  0  ~/web/init.sh
+-'  9  35  ~/web/etc/nginx.conf
+-'  1  0  ~/web/etc/nginx.conf
+-'  1  0  ~/web/init.sh
+-'  9  35  ~/web/etc/nginx.conf
 
 # History of marks within files (newest to oldest):
+
+> ~/web/hello.py
+	"	5	38
+	^	5	39
+	.	5	38
+	+	1	0
+	+	6	0
+	+	2	32
+	+	3	22
+	+	5	38
+
+> ~/web/etc/nginx.conf
+	"	9	35
+	^	9	36
+	.	9	35
+	+	5	0
+	+	3	22
+	+	9	2
+	+	3	0
+	+	2	0
+	+	12	0
+	+	9	35
 
 > ~/web/init.sh
 	"	1	0
@@ -46,14 +176,3 @@
 	.	1	13
 	+	2	0
 	+	1	13
-
-> ~/web/etc/nginx.conf
-	"	12	0
-	^	12	1
-	.	12	0
-	+	5	0
-	+	3	22
-	+	9	2
-	+	3	0
-	+	2	0
-	+	12	0
