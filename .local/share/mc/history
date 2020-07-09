@@ -1,11 +1,16 @@
 [cmdline]
-0=mkdir
-1=mkdir temp
+0=EXIT
+1=OBOA
 2=
 
 [Dir Hist New Right Panel]
 0=/home/box
+1=/
 
 [Dir Hist New Left Panel]
 0=/home/box
 1=/home
+2=/
+3=/usr/share
+4=/usr
+5=/usr/bin
